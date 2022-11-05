@@ -15,15 +15,15 @@ public class Learner {
   public double MUTATION_THRESHOLD = 0.2; // How much to mutate the neural networks of agents' by
 
   // Set instance variables, create the agents, and copy those into the active agents
-  public Learner(int numAgents, Group root) {
+  public Learner(int numAgents, int numAsteroids, Group root) {
     this.root = root;
-    for(int i = 0; i < numAgents; i++) createAgent();
+    for(int i = 0; i < numAgents; i++) createAgent(numAsteroids);
     this.activeAgents = (ArrayList<Ship>)this.agents.clone();
   }
 
   //Each created agent needs to be added to the agents ArrayList, and to the UI
-  private void createAgent() {
-    Ship agent = new Ship();
+  private void createAgent(int numAsteroids) {
+    Ship agent = new Ship(numAsteroids);
     agents.add(agent);
     this.root.getChildren().add(agent);
   }

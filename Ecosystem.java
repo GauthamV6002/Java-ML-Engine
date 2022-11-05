@@ -20,7 +20,7 @@ public class Ecosystem {
     this.HEIGHT = HEIGHT;
     
     this.root = root;
-    this.learner = new Learner(30, root);
+    this.learner = new Learner(30, numAsteroids, root);
     
     for(int i = 0; i < numAsteroids; i++) addAsteroid();
   }

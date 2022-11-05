@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Ship extends Circle {
 
   private final double WIDTH = 400, HEIGHT = 400;
+  private final int MAX_ASTEROIDS = 5;
 
   // Constants for the ship
   private final double radius = 15; //Size of the suhip
@@ -55,13 +56,13 @@ public class Ship extends Circle {
   }
 
   // Constructor sets the color, radius, and centers the ship
-  public Ship() {
+  public Ship(int MAX_ASTEROIDS) {
     this.setFill(Color.BLUE);
     this.center();
     this.setRadius(radius);
 
     // Neural Network Setup
-    int[] layerSizes = {5, 8, 6, 2};
+    int[] layerSizes = {MAX_ASTEROIDS, 8, 6, 2};
 		this.network = new Network(layerSizes);
   } 
 

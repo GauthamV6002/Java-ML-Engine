@@ -32,9 +32,8 @@ public class Main extends Application
     // Ecosystem class manages all the objects on the scene, 5 is the # of asteroids
     Ecosystem ecosystem = new Ecosystem(5, root, WIDTH, HEIGHT);
 
-    // Get the frame delay
-    System.out.print("Enter Frame Update Delay: ");
-    ecosystem.FRAME_UPDATE_DELAY = scanner.nextInt();
+    // Set ecosystem frame delay
+    ecosystem.FRAME_UPDATE_DELAY = 100;
 
     // When the start button is clicked, start the simulation with the runGeneration function, and remove the start button from the UI 
     startBtn.setOnAction(new EventHandler<ActionEvent>() {
