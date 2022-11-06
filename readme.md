@@ -24,9 +24,9 @@ The program still has some bugs, since it was created in a rush (kind of), fix t
 | Asteroids get stuck on edges/go off screen | `Asteroid.java, in update()` | Bug is likely caused by asteroids being out of bounds for 2 updates and switching back and forth over and over  |
 | Genetic Algorithm assigns by reference     | `Learner.java, Line 37`      | Assigns networks to the worse half by reference, meaning only 15 agents show up, the others are just duplicates |
 
-⚠️ Note: The overall project design is capable of producing _some_ results, but lacks optimization ☠️, so it won't produce a really good result.
+⚠️ Warning: The overall project design is capable of producing _some_ results, but lacks optimization ☠️, so it won't produce a really good result.
 
-👍 Improvements: Boundraries kill ships, rework ship AI to move more constantly, address overfitting.
+👍 Potential Improvements: Boundraries kill ships, rework ship AI to move more constantly, address overfitting.
 
 #### Running it
 
