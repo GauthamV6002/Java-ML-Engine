@@ -16,7 +16,7 @@ Okay enough emojis here's a picture:
 
 #### Known bugs 🪲
 
-The program still has some bugs, since it was created in a rush (kind of), fix them if you want ig? I might fix them later. I might
+The program still has some bugs, since it was created in a rush (kind of), fix them if you want ig? I might fix them later. I might not.
 
 | Bug                                        | Predicted Location           | Status                                                                                                          |
 | ------------------------------------------ | ---------------------------- | --------------------------------------------------------------------------------------------------------------- |
