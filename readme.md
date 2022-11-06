@@ -30,7 +30,7 @@ The program still has some bugs, since it was created in a rush (kind of), fix t
 
 #### Running it
 
-If you just want to try it, you can view the replit <a href="https://replit.com/@GauthamVenkates/CS-20A-Final-Project">here</a>. If you want to play around with the project, I suggest forking this repo and moving the code into a working JavaFX environment.
+If you just want to try it, you can view the replit <a href="https://replit.com/@GauthamVenkates/CS-20A-Final-Project" target="_blank">here</a>. If you want to play around with the project, I suggest forking this repo and moving the code into a working JavaFX environment.
 
 
 #### Stats, why not
